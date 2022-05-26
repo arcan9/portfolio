@@ -52,6 +52,16 @@ img:hover {
   font-size: 4.5rem;
 }
 
+#gh {
+  margin-top: 25px;
+  text-decoration: none;
+  color: #956cf3;
+}
+
+#gh:hover {
+  text-decoration: underline;
+}
+
 #about-title {
   margin-top: 0;
   margin-bottom: 0;
