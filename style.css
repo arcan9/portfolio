@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
 :root {
   --button-accent: #956cf3;
   --box-shadow: 0 0.3rem rgba(121, 121, 121, 0.45);
@@ -6,6 +8,7 @@
 
 body {
   display: flex;
+  min-height: 100vh;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -13,11 +16,34 @@ body {
   margin: 0 auto;
   max-width: 700px;
   line-height: 1.5;
+  font-family: "Roboto", sans-serif;
+  color: rgb(43, 29, 61);
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(242, 235, 243) 0%,
+    rgb(234, 241, 249) 90.1%
+  );
+}
+
+img:hover {
+  opacity: 0.5;
+}
+
+#hi {
+  color: rgb(216, 115, 225);
 }
 
 #greeting {
   font-size: 2.5rem;
   margin-bottom: 5px;
+}
+
+#name {
+  color: rgb(64, 44, 88);
+}
+
+#i-am {
+  color: rgb(64, 44, 88);
 }
 
 #name,
@@ -29,6 +55,7 @@ body {
 #about-title {
   margin-top: 0;
   margin-bottom: 0;
+  color: rgb(64, 44, 88);
 }
 
 #button-container,
@@ -82,6 +109,7 @@ body {
 #contact-me {
   margin-bottom: 10px;
   font-size: 2.5rem;
+  color: rgb(216, 115, 225);
 }
 
 #footer {
@@ -109,18 +137,18 @@ body {
 }
 
 .about-section-1 {
-  background: #dacdf2;
-  padding: 20px 20px;
-  margin: 10px;
+  background: rgba(255, 255, 255, 0.4);
+  border: 2px solid #dacdf2;
   border-radius: 10px;
+  padding: 20px 40px;
+  margin: 10px;
 }
 
 .about-section-2 {
-  background: white;
-  border: 2px solid #dacdf2;
-  border-radius: 10px;
-  padding: 20px 20px;
+  background: #dacdf2;
+  padding: 20px 40px;
   margin: 10px;
+  border-radius: 10px;
 }
 
 .tagline {
