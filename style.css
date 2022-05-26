@@ -1,0 +1,141 @@
+:root {
+  --button-accent: #956cf3;
+  --box-shadow: 0 0.3rem rgba(121, 121, 121, 0.45);
+  --box-shadow-active: 0 0.1rem rgba(255, 255, 255, 0.65);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 700px;
+  line-height: 1.5;
+}
+
+#greeting {
+  font-size: 2.5rem;
+  margin-bottom: 5px;
+}
+
+#name,
+#about-title {
+  font-weight: bold;
+  font-size: 4.5rem;
+}
+
+#about-title {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#button-container,
+#about-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+#about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#about {
+  border: 1px solid var(--button-accent);
+  box-shadow: var(--box-shadow);
+  background-color: white;
+  color: var(--button-accent);
+  transition: all 200ms ease-in-out;
+}
+
+#about:hover {
+  background: var(--button-accent);
+  color: white;
+}
+
+#about:active {
+  transform: translate(0, 0.3rem);
+  box-shadow: var(--box-shadow-active);
+}
+
+#contact {
+  box-shadow: var(--box-shadow);
+  background-color: var(--button-accent);
+  color: white;
+  transition: all 200ms ease-in-out;
+}
+
+#contact:hover {
+  background: white;
+  color: var(--button-accent);
+  border: 1px solid var(--button-accent);
+}
+
+#contact:active {
+  transform: translate(0, 0.3rem);
+  box-shadow: var(--box-shadow-active);
+}
+
+#contact-me {
+  margin-bottom: 10px;
+  font-size: 2.5rem;
+}
+
+#footer {
+  margin-bottom: 20px;
+}
+
+#go-home {
+  margin-top: 25px;
+  text-decoration: none;
+  color: #956cf3;
+}
+
+#go-home:hover {
+  text-decoration: underline;
+}
+
+#my-email {
+  color: #956cf3;
+  font-size: 1.25rem;
+  text-decoration: none;
+}
+
+#my-email:hover {
+  text-decoration: underline;
+}
+
+.about-section-1 {
+  background: #dacdf2;
+  padding: 20px 20px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.about-section-2 {
+  background: white;
+  border: 2px solid #dacdf2;
+  border-radius: 10px;
+  padding: 20px 20px;
+  margin: 10px;
+}
+
+.tagline {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #685e7c;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+button {
+  margin: 20px 15px;
+  padding: 20px 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
