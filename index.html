@@ -12,6 +12,12 @@
       integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
       crossorigin="anonymous"
     />
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
     <script
       src="https://kit.fontawesome.com/c9c5205463.js"
       crossorigin="anonymous"
@@ -19,22 +25,57 @@
     <link rel="stylesheet" href="style.css" type="text/css" />
   </head>
   <body>
-    <h1 id="greeting">
-      ✌ <span id="hi">Hi</span> <span id="i-am">I am</span>
-    </h1>
-    <span id="name"> Ashelle Cancio </span>
-    <span class="tagline">
-      Your next <span class="front-end">front-end</span> developer, based in the
-      US <br />
-      👾💻
-      <br />
-      <a href="https://github.com/arcan9" target="_blank" id="gh">github</a>
-    </span>
-    <div id="button-container">
-      <a href="about.html#contact-me"
-        ><button id="contact">Contact me</button></a
-      >
-      <a href="about.html"><button id="about">My Work</button></a>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-custom">
+      <div class="container-fluid p-navar-l">
+        <a class="navbar-brand" href="#">Ashelle C.</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div id="page-container">
+      <h1 id="greeting">
+        ✌ <span id="hi">Hi</span> <span id="i-am">I am</span>
+      </h1>
+      <span id="name"> Ashelle Cancio </span>
+      <span class="tagline">
+        Your next <span class="front-end">front-end</span> developer, based in
+        the US <br />
+        👾💻
+        <br />
+        <a href="https://github.com/arcan9" target="_blank" id="gh">github</a>
+      </span>
+      <div id="button-container">
+        <a href="about.html#contact-me"
+          ><button id="contact">Contact me</button></a
+        >
+        <a href="about.html"><button id="about">My Work</button></a>
+      </div>
     </div>
   </body>
 </html>

@@ -7,14 +7,9 @@
 }
 
 body {
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  margin: 0 auto;
-  max-width: 700px;
+  margin: 60px auto;
+  margin-top: 0;
+  width: auto;
   line-height: 1.5;
   font-family: "Roboto", sans-serif;
   color: rgb(43, 29, 61);
@@ -23,6 +18,15 @@ body {
     rgb(242, 235, 243) 0%,
     rgb(234, 241, 249) 90.1%
   );
+}
+
+#page-container {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 img:hover {
@@ -159,6 +163,10 @@ img:hover {
   padding: 20px 40px;
   margin: 10px;
   border-radius: 10px;
+}
+
+.navbar-custom {
+  background-color: #e5e0ef;
 }
 
 .tagline {
