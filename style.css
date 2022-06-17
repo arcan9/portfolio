@@ -170,6 +170,10 @@ img:hover {
   border-radius: 10px;
 }
 
+.hero-section {
+  margin: 140px auto 150px auto;
+}
+
 .navbar-custom {
   background-color: #e5e0ef;
 }
