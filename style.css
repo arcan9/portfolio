@@ -7,8 +7,7 @@
 }
 
 body {
-  margin: 60px auto;
-  margin-top: 0;
+  margin: 0 auto;
   width: auto;
   line-height: 1.5;
   font-family: "Roboto", sans-serif;
@@ -27,6 +26,12 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+
+#about-blurb {
+  background-color: #fff;
+  width: 100%;
+  padding: 130px;
 }
 
 img:hover {
@@ -173,8 +178,6 @@ img:hover {
   font-weight: bold;
   font-size: 1.5rem;
   color: #685e7c;
-  margin-top: 10px;
-  margin-bottom: 20px;
 }
 
 button {
