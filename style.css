@@ -36,7 +36,7 @@ body {
 }
 
 #about-blurb {
-  background-color: rgb(176, 215, 227);
+  background-color: #f1c327;
   width: 100%;
   padding: 130px;
 }
@@ -191,7 +191,7 @@ img:hover {
 }
 
 .navbar-custom {
-  background-color: #e5e0ef;
+  background-color: #fff;
 }
 
 .project-img {
