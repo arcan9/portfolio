@@ -19,11 +19,12 @@ body {
   line-height: 1.5;
   font-family: "Roboto", sans-serif;
   color: rgb(43, 29, 61);
-  background: radial-gradient(
+  background: #fff;
+  /* background: radial-gradient(
     circle at 10% 20%,
     rgb(242, 235, 243) 0%,
     rgb(234, 241, 249) 90.1%
-  );
+  ); */
 }
 
 #page-container {
@@ -35,7 +36,7 @@ body {
 }
 
 #about-blurb {
-  background-color: #fff;
+  background-color: rgb(176, 215, 227);
   width: 100%;
   padding: 130px;
 }
@@ -194,8 +195,10 @@ img:hover {
 }
 
 .project-img {
-  height: 290px;
-  width: 335px;
+  /* height: 290px;
+  width: 335px; */
+  height: auto;
+  width: auto;
 }
 
 .project-img img {
