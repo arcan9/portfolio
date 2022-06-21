@@ -1,7 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap");
 
 :root {
-  --button-accent: #956cf3;
   --box-shadow: 0 0.3rem rgba(121, 121, 121, 0.45);
   --box-shadow-active: 0 0.1rem rgba(255, 255, 255, 0.65);
 }
@@ -20,11 +19,7 @@ body {
   font-family: "Roboto", sans-serif;
   color: rgb(43, 29, 61);
   background: #fff;
-  /* background: radial-gradient(
-    circle at 10% 20%,
-    rgb(242, 235, 243) 0%,
-    rgb(234, 241, 249) 90.1%
-  ); */
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='199' viewBox='0 0 100 199'%3E%3Cg fill='%23e7e2ef' fill-opacity='0.4'%3E%3Cpath d='M0 199V0h1v1.99L100 199h-1.12L1 4.22V199H0zM100 2h-.12l-1-2H100v2z'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
 }
 
 a {
@@ -41,9 +36,18 @@ a {
 
 #about-blurb {
   background-color: #f1c327;
-  color: rgb(68, 59, 33);
+  /* color: rgb(68, 59, 33); */
+  color: #fff;
   width: 100%;
   padding: 130px;
+}
+
+#about-blurb .about-me {
+  font-weight: bold;
+}
+
+#about-blurb .text-start {
+  line-height: 1.8;
 }
 
 img {
@@ -56,7 +60,8 @@ img:hover {
 }
 
 #hi {
-  color: rgb(216, 115, 225);
+  /* color: rgb(216, 115, 225); */
+  color: #6ec0b8;
 }
 
 #greeting {
@@ -65,11 +70,11 @@ img:hover {
 }
 
 #name {
-  color: rgb(64, 44, 88);
+  color: rgb(68, 59, 33);
 }
 
 #i-am {
-  color: rgb(64, 44, 88);
+  color: rgb(68, 59, 33);
 }
 
 #name,
@@ -78,11 +83,11 @@ img:hover {
   font-size: 4.5rem;
 }
 
-#gh {
+/* #gh {
   margin-top: 25px;
   text-decoration: none;
   color: #956cf3;
-}
+} */
 
 #gh:hover {
   text-decoration: underline;
@@ -148,6 +153,17 @@ img:hover {
   color: rgb(216, 115, 225);
 }
 
+#end {
+  background-color: #4587eb;
+  color: rgb(236, 236, 236);
+  width: 100%;
+}
+
+#end .text-start {
+  color: #b3d4ff;
+  font-size: small;
+}
+
 #footer {
   margin-bottom: 20px;
 }
@@ -167,11 +183,15 @@ img:hover {
   color: rgb(236, 236, 236);
   width: 100%;
   padding: 50px;
-  margin-top: 80px;
+  margin-top: 70px;
 }
 
 #main-page-footer-section .col-sm-4 {
   margin-top: 75px;
+}
+
+#main-page-footer-section .text-uppercase {
+  font-weight: bold;
 }
 
 #main-page-footer-section ul {
@@ -235,14 +255,22 @@ img:hover {
   width: 335px; */
   height: auto;
   width: auto;
-  margin: 70px;
-  margin-top: 180px;
+  margin: 85px;
+  margin-top: 150px;
   margin-bottom: 100px;
 }
 
 .project-img img {
   height: 100%;
   width: 100%;
+}
+
+.project1 {
+  margin-right: 10px;
+}
+
+.project2 {
+  margin-left: 10px;
 }
 
 .selfie-illo {
@@ -253,7 +281,7 @@ img:hover {
 .tagline {
   font-weight: bold;
   font-size: 1.5rem;
-  color: #685e7c;
+  color: rgb(139, 134, 119);
 }
 
 button {
