@@ -41,7 +41,6 @@ a {
 
 #about-blurb {
   background-color: var(--color-yellow);
-  /* color: rgb(68, 59, 33); */
   color: #fff;
   width: 100%;
   padding: 130px;
@@ -157,7 +156,7 @@ img:hover {
   width: 100%;
 }
 
-#end .text-start {
+#end .text-sm-start {
   color: #b3d4ff;
   font-size: small;
 }
@@ -307,4 +306,20 @@ button {
   border: none;
   outline: none;
   cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .project1 {
+    margin: auto;
+  }
+  .project2 {
+    margin: auto;
+  }
+}
+
+@media (max-width: 335px) {
+  .selfie-illo {
+    height: auto;
+    width: auto;
+  }
 }
