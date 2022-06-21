@@ -175,7 +175,7 @@ img:hover {
   text-decoration: underline;
 }
 
-#main-page-footer-section {
+#footer-section {
   background-color: var(--color-blue);
   color: rgb(236, 236, 236);
   width: 100%;
@@ -183,29 +183,29 @@ img:hover {
   margin-top: 70px;
 }
 
-#main-page-footer-section .col-sm-4 {
+#footer-section .col-sm-4 {
   margin-top: 75px;
 }
 
-#main-page-footer-section .text-uppercase {
+#footer-section .text-uppercase {
   font-weight: bold;
 }
 
-#main-page-footer-section ul {
+#footer-section ul {
   list-style: none;
   padding: 0;
   padding-top: 30px;
 }
 
-#main-page-footer-section li {
+#footer-section li {
   padding: 10px;
 }
 
-#main-page-footer-section a {
+#footer-section a {
   color: rgb(236, 236, 236);
 }
 
-#main-page-footer-section a:hover {
+#footer-section a:hover {
   color: var(--color-yellow);
 }
 
