@@ -4,68 +4,169 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>About</title>
-    <link rel="stylesheet" href="style.css" type="text/css" />
+    <title>Ashelle Cancio - Web Developer</title>
+    <meta name="description" content="Front End Web Development projects by Ashelle Cancio, developer in Los Angeles.">
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/c9c5205463.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="/about.css" type="text/css" />
   </head>
   <body>
-    <a id="go-home" href="index.html">Back to Homepage</a>
-    <h1 id="about-title">About Me</h1>
-    <span class="tagline">Under construction</span>
-    <div id="about-container">
-      <div class="about-section-1">
-        <h2>Projects</h2>
-        <a href="https://weatherapp-arcan.netlify.app/" target="_blank"
-          ><img
-            src="images/weather-app-capture.PNG"
-            class="image-thumbnail"
-            width="300px"
-        /></a>
-        <br />
-        <h3>Weather In Forecast</h3>
-        A weather forecast page where the user can check their current
-        location's weather, as well as the weather for any major city. The
-        displayed temperature can be converted from Celsius to Fahrenheit.
-        <br />
-        <a href="https://kor-vocab.netlify.app/" target="_blank"
-          ><img
-            src="images/language-app-2.gif"
-            class="image-thumbnail"
-            width="300px"
-        /></a>
-        <h3>Hada Vocab Quiz</h3>
-        Users learning Korean can check to see their word knowledge. The app
-        tracks the user's score and tells them the correct answers when they get
-        a question wrong.
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-custom">
+      <div class="container-fluid p-navar-l">
+        <a class="navbar-brand">ARC</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                aria-current="page"
+                href="index.html"
+                title="Home"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about.html" title="About Me"
+                >About Me</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about.html#contact" title="Contact Me"
+                >Contact Me</a
+              >
+            </li>
+          </ul>
+        </div>
       </div>
+    </nav>
+    <!-- End of Navbar -->
 
-      <div class="about-section-2">
-        Hi, I'm Ashelle (prounounced uh-shell), illustrator turned web
-        developer. Like many people, I've dabbled a bit with coding when I was a
-        teen. Tweaking HTML and CSS here and there on my Myspace layout and
-        Tumble blogs (remember those times?). For years, I worked as a digital
-        artist, illustrating custom art and indie published work. It really
-        wasn't until I stumbled upon SheCodes, a program that teaches women how
-        to code, that I was inspired to get into web developement. As a
-        creative, it seemed a perfect opportunity to learn and hone some tech
-        skills, solving problems, while creating clean and aesthetically
-        pleasing pages. I was hooked.
-        <br />
-        <br />
-        Early 2022, SheCodes has helped me learn and developed projects using
-        HTML, CSS, Javascript, Bootstrap, and API. I'm continuing to learn every
-        day. As I've worked independently a good portion of my life, I've always
-        aimed to do good work with dogged determination and continue to improve
-        myself. That said, I also enjoy working with others whenever interesing
-        group-oriented projects land my way. I would love to work with other
-        creatives and programmers who value inclusivity, empathy, and friendly
-        open communication.
+    <div id="page-container">
+      <!-- Hero Section -->
+      <div class="hero-section">
+        
+        <div id="about-header">About</div>
+        <div class="tagline">
+          📍 Los Angeles, CA
+          <br />
+        </div>
       </div>
-    </div>
-    <div id="footer">
-      <h2 id="contact-me">📩 Contact Me</h2>
-      <a id="my-email" href="mailto:vermillion707@gmail.com"
-        >acancio0518@gmail.com</a
-      >
+      <!-- End of Hero Section -->
+
+      <!-- About Section -->
+      <div id="about-section">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 mt-4 bio-pic"><img class="img-fluid" src="/images/portrait.jpg">
+            </div>
+            <div class="col-lg-6 text-sm-start">
+              <p>Hi, I'm Ashelle (prounounced uh-shell), illustrator turned web developer. Like many people, I've dabbled a bit with coding when I was a teen. Tweaking HTML and CSS here and there on my Myspace layout and Tumble blogs (remember those times?). For years, I worked as a digital artist, illustrating custom art for clients and sold my art at conventions. It really wasn't until early 2022 that I was inspired to get into web developement when I took coding workshops out of curiousity. These workshops seemed like the perfect opportunity to learn and hone some tech skills in a dip-your-toes manner. It's safe to say that I was hooked by the first few weeks of learning about HTML, CSS, Javascripts, APIs, and the like.</p>
+              <p class="par-2">I'm continuing to learn every day. As I've worked independently throughout a good portion of my life, I've always aimed to do good work with dogged determination and continue to improve myself. That said, I also enjoy working with others whenever interesing group-oriented projects land my way. A team who places importance on inclusivity, curiosity, and friendly open communication is something I value most in my professional life! </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End of About Blurb -->
+
+      <!-- Project Section -->
+      
+      <!-- End of Project Section -->
+
+      <!-- Footer Section -->
+      <div id="footer-section">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <a
+                class="twitter-timeline"
+                data-width="350"
+                data-height="250"
+                href="https://twitter.com/arcan_dev?ref_src=twsrc%5Etfw"
+                >Tweets by arcan_dev</a
+              >
+              <script
+                async
+                src="https://platform.twitter.com/widgets.js"
+                charset="utf-8"
+              ></script>
+            </div>
+            <div class="col-md-4">
+              <ul>
+                <li>
+                  <i class="fa-brands fa-linkedin-in"></i>
+                  <a
+                    href="https://www.linkedin.com/in/ashelle-cancio/"
+                    target="_blank"
+                    title="Linkedin Profile"
+                    >linkedin</a
+                  >
+                </li>
+                <li>
+                  <i class="fa-brands fa-github-alt"></i>
+                  <a
+                    href="https://www.github.com/arcan9/"
+                    target="_blank"
+                    title="Github Profile"
+                    >github</a
+                  >
+                </li>
+                <li>
+                  <i class="fa-brands fa-twitter"></i>
+                  <a
+                    href="https://www.twitter.com/arcan_dev/"
+                    target="_blank"
+                    title="Twitter Profile"
+                    >twitter</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-4">
+              <a href="https://ravensketches.myportfolio.com/" target="_blank"
+                ><img
+                  class="img-fluid rounded p-2 shadow selfie-illo"
+                  src="/images/illo-portrait.jpg"
+                  alt="Self Portrait Illustration"
+                  title="Ashelle's Illustration Portfolio"
+              /></a>
+              <div class="mt-3 fs-4"><i class="fa-solid fa-paintbrush"></i>
+                Illustration <br />Portfolio
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="end">
+        <p class="text-sm-start ms-3 mb-1">© 2022 Ashelle Cancio | Hosted on Netlify</span>
+      </div>
+      <!-- End of Footer Section -->
     </div>
   </body>
 </html>
