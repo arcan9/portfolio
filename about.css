@@ -323,4 +323,7 @@ button {
   .par-2 {
     display: none;
   }
+  .about-section .text-sm-start p {
+    text-align: center;
+  }
 }
