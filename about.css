@@ -311,13 +311,10 @@ button {
   }
 }
 
-@media (max-width: 576px) {
-  #about-section {
-    padding: 50px;
-  }
-}
-
 @media (max-width: 992px) {
+  #about-section {
+    padding: 30px;
+  }
   #about-section .text-sm-start .par-1 {
     margin-top: 20px;
   }
