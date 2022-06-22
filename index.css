@@ -323,3 +323,15 @@ button {
     width: auto;
   }
 }
+
+@media (max-width: 576px) {
+  #about-blurb {
+    padding: 50px;
+  }
+  #about-blurb span {
+    margin-top: 20px;
+  }
+  .tagline {
+    margin: auto 10px;
+  }
+}
