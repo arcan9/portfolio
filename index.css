@@ -160,8 +160,8 @@ img:hover {
 }
 
 .project-img {
-  height: auto;
-  width: auto;
+  /* height: auto;
+  width: auto; */
   margin-bottom: 100px;
 }
 
@@ -169,6 +169,7 @@ img:hover {
   margin-top: 40px;
   font-weight: bold;
   font-size: 25px;
+  line-height: 1.3;
 }
 
 .project-title a {
@@ -217,5 +218,15 @@ img:hover {
   #name,
   .tagline {
     margin: auto 10px;
+  }
+}
+
+@media (min-width: 768px) {
+  .vw-50 {
+    width: 700px;
+  }
+
+  .vw-50 .col .row {
+    width: 100%;
   }
 }
