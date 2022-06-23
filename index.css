@@ -74,6 +74,7 @@ img:hover {
 
 #name {
   color: var(--color-brown);
+  line-height: 1;
 }
 
 #i-am {
@@ -84,70 +85,6 @@ img:hover {
 #about-title {
   font-weight: bold;
   font-size: 4.5rem;
-}
-
-#gh:hover {
-  text-decoration: underline;
-}
-
-#about-title {
-  margin-top: 0;
-  margin-bottom: 0;
-  color: rgb(64, 44, 88);
-}
-
-#button-container,
-#about-container {
-  display: flex;
-  justify-content: space-between;
-}
-
-#about-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-#about {
-  border: 1px solid var(--button-accent);
-  box-shadow: var(--box-shadow);
-  background-color: white;
-  color: var(--button-accent);
-  transition: all 200ms ease-in-out;
-}
-
-#about:hover {
-  background: var(--button-accent);
-  color: white;
-}
-
-#about:active {
-  transform: translate(0, 0.3rem);
-  box-shadow: var(--box-shadow-active);
-}
-
-#contact {
-  box-shadow: var(--box-shadow);
-  background-color: var(--button-accent);
-  color: white;
-  transition: all 200ms ease-in-out;
-}
-
-#contact:hover {
-  background: white;
-  color: var(--button-accent);
-  border: 1px solid var(--button-accent);
-}
-
-#contact:active {
-  transform: translate(0, 0.3rem);
-  box-shadow: var(--box-shadow-active);
-}
-
-#contact-me {
-  margin-bottom: 10px;
-  font-size: 2.5rem;
-  color: rgb(216, 115, 225);
 }
 
 #end {
@@ -163,16 +100,6 @@ img:hover {
 
 #footer {
   margin-bottom: 20px;
-}
-
-#go-home {
-  margin-top: 25px;
-  text-decoration: none;
-  color: #956cf3;
-}
-
-#go-home:hover {
-  text-decoration: underline;
 }
 
 #footer-section {
@@ -207,31 +134,6 @@ img:hover {
 
 #footer-section a:hover {
   color: var(--color-yellow);
-}
-
-#my-email {
-  color: #956cf3;
-  font-size: 1.25rem;
-  text-decoration: none;
-}
-
-#my-email:hover {
-  text-decoration: underline;
-}
-
-.about-section-1 {
-  background: rgba(255, 255, 255, 0.4);
-  border: 2px solid #dacdf2;
-  border-radius: 10px;
-  padding: 20px 40px;
-  margin: 10px;
-}
-
-.about-section-2 {
-  background: #dacdf2;
-  padding: 20px 40px;
-  margin: 10px;
-  border-radius: 10px;
 }
 
 .hero-section {
@@ -299,15 +201,6 @@ img:hover {
   color: rgb(139, 134, 119);
 }
 
-button {
-  margin: 20px 15px;
-  padding: 20px 10px;
-  border-radius: 5px;
-  border: none;
-  outline: none;
-  cursor: pointer;
-}
-
 @media (max-width: 768px) {
   .project1 {
     margin: auto;
@@ -331,6 +224,7 @@ button {
   #about-blurb span {
     margin-top: 20px;
   }
+  #name,
   .tagline {
     margin: auto 10px;
   }
