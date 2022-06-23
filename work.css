@@ -135,6 +135,10 @@ img:hover {
   width: 200px;
 }
 
+/* .work-title {
+
+} */
+
 @media (max-width: 335px) {
   .selfie-illo {
     height: auto;
