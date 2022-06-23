@@ -7,6 +7,7 @@
   --color-yellow: #f1c327;
   --color-teal: #6ec0b8;
   --color-brown: rgb(68, 59, 33);
+  --color-light-gray: rgb(139, 134, 119);
 }
 
 html,
@@ -107,7 +108,7 @@ img:hover {
   color: rgb(236, 236, 236);
   width: 100%;
   padding: 50px;
-  margin-top: 70px;
+  margin-top: 40px;
 }
 
 #footer-section .col-sm-4 {
@@ -132,7 +133,8 @@ img:hover {
   color: rgb(236, 236, 236);
 }
 
-#footer-section a:hover {
+#footer-section a:hover,
+.project-title a:hover {
   color: var(--color-yellow);
 }
 
@@ -160,32 +162,22 @@ img:hover {
 .project-img {
   height: auto;
   width: auto;
-  margin: 85px;
   margin-bottom: 100px;
 }
 
-.project-img img {
-  height: 100%;
-  width: 100%;
-}
-
-.project1 {
-  margin-right: 10px;
-}
-
-.project2 {
-  margin-left: 10px;
-}
-
 .project-title {
-  color: rgb(139, 134, 119);
-  margin-top: 20px;
+  margin-top: 40px;
   font-weight: bold;
   font-size: 25px;
 }
 
+.project-title a {
+  color: var(--color-light-gray);
+}
+
 .section-header {
   margin-top: 80px;
+  margin-bottom: 35px;
   font-weight: bold;
   color: var(--color-blue);
 }
@@ -198,16 +190,10 @@ img:hover {
 .tagline {
   font-weight: bold;
   font-size: 1.5rem;
-  color: rgb(139, 134, 119);
+  color: var(--color-light-gray);
 }
 
 @media (max-width: 768px) {
-  .project1 {
-    margin: auto;
-  }
-  .project2 {
-    margin: auto;
-  }
   #footer-section ul {
     padding-top: 20px;
     padding-bottom: 20px;
