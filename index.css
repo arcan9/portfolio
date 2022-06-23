@@ -138,6 +138,10 @@ img:hover {
   color: var(--color-yellow);
 }
 
+.fa-hand-peace {
+  color: var(--color-yellow);
+}
+
 .hero-section {
   margin: 140px auto 150px auto;
 }
@@ -194,13 +198,6 @@ img:hover {
   color: var(--color-light-gray);
 }
 
-@media (max-width: 768px) {
-  #footer-section ul {
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-}
-
 @media (max-width: 335px) {
   .selfie-illo {
     height: auto;
@@ -218,6 +215,13 @@ img:hover {
   #name,
   .tagline {
     margin: auto 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  #footer-section ul {
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 }
 

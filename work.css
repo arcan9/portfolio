@@ -113,6 +113,10 @@ img:hover {
   font-size: 4.5rem;
 }
 
+.desc {
+  color: var(--color-brown);
+}
+
 .hero-section {
   margin: 140px auto 150px auto;
 }
@@ -135,9 +139,11 @@ img:hover {
   width: 200px;
 }
 
-/* .work-title {
-
-} */
+.work-title {
+  color: var(--color-teal);
+  font-size: 25px;
+  font-weight: bold;
+}
 
 @media (max-width: 335px) {
   .selfie-illo {

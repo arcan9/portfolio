@@ -69,36 +69,6 @@ img:hover {
   font-size: 4.5rem;
 }
 
-/* #button-container,
-#about-container {
-  display: flex;
-  justify-content: space-between;
-}
-
-#about-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-#about {
-  border: 1px solid var(--button-accent);
-  box-shadow: var(--box-shadow);
-  background-color: white;
-  color: var(--button-accent);
-  transition: all 200ms ease-in-out;
-} */
-
-/* #about:hover {
-  background: var(--button-accent);
-  color: white;
-}
-
-#about:active {
-  transform: translate(0, 0.3rem);
-  box-shadow: var(--box-shadow-active);
-} */
-
 #end {
   background-color: var(--color-blue);
   color: rgb(236, 236, 236);
