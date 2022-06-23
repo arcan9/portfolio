@@ -7,6 +7,7 @@
   --color-yellow: #f1c327;
   --color-teal: #6ec0b8;
   --color-brown: rgb(68, 59, 33);
+  --color-light-gray: rgb(139, 134, 119);
 }
 
 html,
@@ -132,11 +133,11 @@ img:hover {
 #footer-section ul {
   list-style: none;
   padding: 0;
-  padding-top: 30px;
+  padding-top: 50px;
 }
 
 #footer-section li {
-  padding: 10px;
+  padding: 0;
 }
 
 #footer-section a {
@@ -155,6 +156,20 @@ img:hover {
 
 .email-me {
   margin-top: 70px;
+}
+
+.email-me i {
+  color: var(--color-blue);
+}
+
+.email-me a {
+  font-weight: bold;
+  color: var(--color-light-gray);
+}
+
+.email-me .text-uppercase {
+  font-weight: bold;
+  color: var(--color-yellow);
 }
 
 .hero-section {
@@ -186,7 +201,7 @@ img:hover {
 .tagline {
   font-weight: bold;
   font-size: 1.5rem;
-  color: rgb(139, 134, 119);
+  color: var(--color-light-gray);
 }
 
 @media (max-width: 335px) {
@@ -199,6 +214,13 @@ img:hover {
 @media (max-width: 450px) {
   .bio-pic img {
     display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  #footer-section ul {
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 }
 

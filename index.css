@@ -121,11 +121,11 @@ img:hover {
 #footer-section ul {
   list-style: none;
   padding: 0;
-  padding-top: 30px;
+  padding-top: 50px;
 }
 
 #footer-section li {
-  padding: 10px;
+  padding: 0;
 }
 
 #footer-section a {
@@ -207,6 +207,10 @@ img:hover {
   }
   .project2 {
     margin: auto;
+  }
+  #footer-section ul {
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 }
 
