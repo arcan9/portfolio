@@ -139,10 +139,14 @@ img:hover {
   width: 200px;
 }
 
-.work-title {
+.work-title a {
   color: var(--color-teal);
   font-size: 25px;
   font-weight: bold;
+}
+
+.work-title a:hover {
+  color: var(--color-yellow);
 }
 
 @media (max-width: 335px) {
