@@ -117,6 +117,10 @@ img:hover {
   color: var(--color-brown);
 }
 
+.desc a {
+  color: var(--color-teal);
+}
+
 .hero-section {
   margin: 140px auto 150px auto;
 }
@@ -145,7 +149,8 @@ img:hover {
   font-weight: bold;
 }
 
-.work-title a:hover {
+.work-title a:hover,
+.desc a:hover {
   color: var(--color-yellow);
 }
 
